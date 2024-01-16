@@ -1,6 +1,106 @@
-.abc{
+.height{
     height: 150px;
-    width: 180px;
+    border-radius:10px ;
+    display: flex;
+}
+.img-size{
+    width: 200px;
     padding: 20px;
-    position:absolute;
+}
+.menu{
+    padding: 20px;
+    padding-top: 80px;
+    font-size: 30px;
+    font-family: cursive;
+    text-decoration: none;
+    
+}
+.search-size1{
+    height: 50px;
+    width: 190px;
+    margin-top: 80px;
+
+}
+.search-size{
+    height: 50px;
+    width: 100px;
+    margin-top: 80px;
+}
+.div-2{
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.div-2-text{
+    font-size: 30px;
+    padding: 30px;
+    font-family: cursive;
+
+}
+.div-2-text1{
+    font-size: 28px;
+    padding: 0px;
+    padding-top: 130px;
+    font-family: cursive;
+
+}
+.div-2-text2{
+    font-size: 40px;
+    padding-left: 100px;
+    
+
+}
+.company-name{
+    font-size: 25px;
+    color: grey;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.company-name1{
+    color: gold; 
+}
+.btn1{
+    border-radius: 10px;
+    border: 2px solid grey;
+    box-shadow: 0 0 10px grey;
+    background-color: green;
+    margin: 20px;
+    margin-top: 40px;
+    width: 200px;
+    height: 45px;
+    font-size: 20px;
+    color: white;
+    
+}
+.btn1:hover{
+    background-color: white;
+    color: black;
+}
+.btn2{
+    border-radius: 10px;
+    border: 2px solid grey;
+    box-shadow: 0 0 10px grey;
+    background-color:white ;
+    margin: 20px;
+    margin-top: 40px;
+    width: 190px;
+    height: 45px;
+    font-size: 20px;
+
+}
+.btn2:hover{
+    background-color: green;
+    color: white;
+}
+.electro-products-img{
+    height: 450px;
+    width: 700px;
+    margin-top: 100px;
+
+}
+.div-3{
+    height: 500px;
+    margin-top: 100px;
+    background-color: red;
 }
