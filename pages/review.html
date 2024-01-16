@@ -1,12 +1,322 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Customer Review</title>
+    <style>
+        body {
+            background-color: #c9c8c7;
+            padding: 0;
+            margin: 0;
+        }
+
+        .header {
+            display: flex;
+            background-color: gold;
+
+        }
+
+        .header-heading {
+            font-size: 39px;
+            margin: 20px;
+        }
+
+        .menugroup {
+            position: relative;
+            left: 200px;
+            margin-top: 26px;
+            text-decoration: none;
+        }
+
+        .menu {
+            margin: 20px;
+            font-size: 20px;
+            cursor: pointer;
+            font-weight: bold;
+            color: black;
+            text-decoration: none;
+        }
+
+        .login {
+            position: relative;
+            left: 420px;
+            margin-top: 26px;
+
+            font-size: 20px;
+
+            font-weight: bold;
+            text-decoration: none;
+            position: relative;
+            top: 26px;
+            color: black;
+
+        }
+
+        .heading {
+            text-align: center;
+            margin-top: 50px;
+            font-size: 50px;
+        }
+
+        .review-line {
+            background-color: gold;
+            padding: 20px;
+            border-radius: 35px 0 35px 0;
+        }
+
+        .rev-container-parent {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+
+        .rev-container {
+            background-color: white;
+            height: 300px;
+            width: 400px;
+            padding: 10px;
+            margin-top: 100px;
+
+            border-radius: 10px;
+            box-shadow: 0 0 10px gray;
+        }
+
+        .para {
+            font-size: 18px;
+            text-align: center;
+
+        }
+
+        .review-con-image {
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            display: block;
+            margin: auto;
+
+        }
+
+        .customer-name {
+            font-size: 24px;
+            margin-top: 0;
+            text-align: center;
+        }
+
+        .stardiv {
+
+            position: relative;
+            bottom: 15px;
+            left: 100px;
+
+        }
+
+        .star {
+            height: 35px;
+
+        }
+
+        .writereview-heading {
+            font-size: 40px;
+            text-align: center;
+        }
+
+        .writereview-container {
+            background-color: white;
+            width: 940px;
+            height: 620px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .namebox {
+            font-size: 40px;
+            margin-left: 30px;
+            margin-top: 20px;
+            position: relative;
+            left: 10px;
+
+
+        }
+
+        .inputname {
+            font-size: 40px;
+            margin: 30px;
+            margin-left: 2px;
+            padding: 10px;
+        }
+
+        .star-rating {
+
+            color: #FFD700;
+            font-size: 40px;
+            margin-left: 30px;
+            position: relative;
+            left: 10px;
+
+
+
+        }
+        .commentbox{
+            
+height: 300px;
+width: 600px;
+border: 1px solid black;
+margin-left: 40px;
+margin-top: 30px;
+        }
+        .commenttext{
+            margin-left: 40px;
+            font-size: 40px;
+        }
+        .submit{
+            position: relative;
+            left: 578px;
+            padding: 10px;
+            width: 110px;
+            font-size: 20px;
+            background-color: gold;
+            color: white;
+            cursor: pointer;
+        }
+        .submit:hover{
+      
+        }
+        .img-size{
+    width: 150px;
+    padding: 20px;
+}
+    </style>
 </head>
+
 <body>
-    <h1>komalr</h1>
+
+    <div class="header">
+        
+        <img  class="img-size" src="../imgges/logo-sell.png" alt="">
+        <div class="menugroup">
+            <a href="../index.html" style="text-decoration: none;"><span class="menu">Home</span></a>
+            <a href="../pages/products.html" style="text-decoration: none;"><span class="menu">Product</span></a>
+            <a href="../pages/bolg.html" style="text-decoration: none;"><span class="menu">Blog </span></a>
+            <a href="../pages/about.html" style="text-decoration: none;"><span class="menu">About</span></a>
+            <a href="../pages/review.html" style="text-decoration: none;"><span class="menu">Review</span></a>
+            <a href="../pages/contact.html" style="text-decoration: none;"><span class="menu">Contact</span></a>
+        </div>
+        <a href="../pages/" style="text-decoration: none;"><span class="login"> Login👨‍💼 </span></a>
+    </div>
+    <div></div>
+    <div>
+        <h1 class="heading">Customer's&nbsp; <span class="review-line">Review </span></h1>
+    </div>
+    <div class="rev-container-parent">
+        <div class="rev-container">
+            <p class="para">I purchase a earbuds from this platform which is fantastic in quality, the battery backup of
+                this earbuds is 32 hour ,i suggested to all to buy this earbuds ,and also delivery is so fast</p>
+            <img src="../imgges/review1.webp" class="review-con-image" />
+            <h3 class="customer-name">Pooja Hegde</h3>
+            <div class="stardiv">
+                <img src="../imgges/star.png" class="star" />
+                <img src="../imgges/star.png" class="star" />
+                <img src="../imgges/star.png" class="star" />
+                <img src="../imgges/star.png" class="star" />
+                <img src="../imgges/star.png" class="star" />
+            </div>
+        </div>
+        <div class="rev-container">
+            <p class="para">I purchase a earbuds from this platform which is fantastic in quality, the battery backup of
+                this earbuds is 32 hour ,i suggested to all to buy this earbuds ,and also delivery is so fast</p>
+            <img src="../imgges/review3.avif" class="review-con-image" />
+            <h3 class="customer-name">Alu Arjun</h3>
+            <div class="stardiv">
+                <img src="../imgges/star.png" class="star" />
+                <img src="../imgges/star.png" class="star" />
+                <img src="../imgges/star.png" class="star" />
+                <img src="../imgges/star.png" class="star" />
+                <img src="../imgges/halfstar.png" class="star" />
+            </div>
+        </div>
+        <div class="rev-container">
+            <p class="para">I purchase a earbuds from this platform which is fantastic in quality, the battery backup of
+                this earbuds is 32 hour ,i suggested to all to buy this earbuds ,and also delivery is so fast</p>
+            <img src="../imgges/review4.avif" class="review-con-image" />
+            <h3 class="customer-name">Rohit Sharma</h3>
+            <div class="stardiv">
+                <img src="../imgges/star.png" class="star" />
+                <img src="../imgges/star.png" class="star" />
+                <img src="../imgges/star.png" class="star" />
+                <img src="../imgges/star.png" class="star" />
+                <img src="../imgges/starempty.png" class="star" />
+            </div>
+        </div>
+    </div>
+    <div class="rev-container-parent" style="position: relative; bottom: 42px;">
+        <div class="rev-container">
+            <p class="para">I purchase a earbuds from this platform which is fantastic in quality, the battery backup of
+                this earbuds is 32 hour ,i suggested to all to buy this earbuds ,and also delivery is so fast</p>
+            <img src="../imgges/review2.jpeg" class="review-con-image" />
+            <h3 class="customer-name">Rashmika mandhana</h3>
+            <div class="stardiv">
+                <img src="../imgges/star.png" class="star" />
+                <img src="../imgges/star.png" class="star" />
+                <img src="../imgges/star.png" class="star" />
+                <img src="../imgges/star.png" class="star" />
+                <img src="../imgges/star.png" class="star" />
+            </div>
+        </div>
+        <div class="rev-container">
+            <p class="para">I purchase a earbuds from this platform which is fantastic in quality, the battery backup of
+                this earbuds is 32 hour ,i suggested to all to buy this earbuds ,and also delivery is so fast</p>
+            <img src="../imgges/review3.avif" class="review-con-image" />
+            <h3 class="customer-name">Virat Kholi</h3>
+            <div class="stardiv">
+                <img src="../imgges/star.png" class="star" />
+                <img src="../imgges/star.png" class="star" />
+                <img src="../imgges/star.png" class="star" />
+                <img src="../imgges/star.png" class="star" />
+                <img src="../imgges/starempty.png" class="star" />
+            </div>
+        </div>
+        <div class="rev-container">
+            <p class="para">I purchase a earbuds from this platform which is fantastic in quality, the battery backup of
+                this earbuds is 32 hour ,i suggested to all to buy this earbuds ,and also delivery is so fast</p>
+            <img src="../imgges/review4.avif" class="review-con-image" />
+            <h3 class="customer-name">Nitin shah</h3>
+            <div class="stardiv">
+                <img src="../imgges/star.png" class="star" />
+                <img src="../imgges/star.png" class="star" />
+                <img src="../imgges/star.png" class="star" />
+                <img src="../imgges/star.png" class="star" />
+                <img src="../imgges/halfstar.png" class="star" />
+            </div>
+
+        </div>
+    </div>
+
+    <div>
+        <h2 class="writereview-heading"> Write your Review</h2>
+        <div class="writereview-container">
+            <span class="namebox">Name : <input type="text" required class="inputname" /> </span>
+
+            <div class="star-rating" id="rating-stars">
+                <span style="color: black;"> Rating: </span><span onclick="setRating(1)">★</span>
+                <span onclick="setRating(2)">★</span>
+                <span onclick="setRating(3)">★</span>
+                <span onclick="setRating(4)">★</span>
+                <span onclick="setRating(5)">★</span>
+            </div>
+            <input type="text" class="commentbox"/>
+            <div style="display: flex;">
+                <span class="commenttext">comment</span>
+                <button type="button" class="submit">Submit</button>
+            </div>
+
+            
+            
+        </div>
+    </div>
     
 </body>
+
 </html>
