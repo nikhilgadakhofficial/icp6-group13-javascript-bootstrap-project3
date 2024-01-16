@@ -1,6 +1,31 @@
-.abc{
+.height{
     height: 150px;
-    width: 180px;
+    border-radius:10px ;
+    display: flex;
+}
+.img-size{
+    width: 200px;
     padding: 20px;
-    position:absolute;
+}
+.menu{
+    padding: 20px;
+    padding-top: 80px;
+    font-size: 30px;
+    font-family: cursive;
+    text-decoration: none;
+    
+}
+.search-size1{
+    height: 50px;
+    width: 190px;
+    margin-top: 80px;
+
+}
+.search-size{
+    height: 50px;
+    width: 100px;
+    margin-top: 80px;
+}
+.heading{
+    font-family: cursive;
 }
