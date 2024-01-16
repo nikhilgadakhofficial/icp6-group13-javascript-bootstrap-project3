@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Products Page</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="./../css/index.css">
     <style>
         .h-150{
             height: 200px;
@@ -18,12 +18,39 @@
         .cursor{
             cursor:pointer ;
         }
+        .dot{
+           margin-left:670px ;
+          
+        }
+       
       
     </style>
 </head>
 <body>
+    <div class=" bg-warning height">
+        <img  class="img-size" src="./../imgges/logo-sell.png" alt="">
+        <a class="menu" href="./../index.html">Home</a>
+        <a class="menu" href="./../pages/products.html">Our Products</a>
+        <a class="menu" href="./../pages/about.html">About Us</a>
+        <a class="menu" href="./../pages/contact.html">Contact Us</a>
+        <a class="menu" href="./../pages/login.html">Login</a>
+        <form class="d-flex" role="search">
+            <input class="form-control me-2 search-size1" type="search " placeholder="Search Products" aria-label="Search">
+            <button class="btn btn-outline-success search-size" type="submit">Search</button>
+          </form>
+    </div>
+        
+    <img src="./../imgges/hade8.jpg" id="img-1"  class="w-100 p-3 h-auto "/>
+
+    <div class="dot">
+        <img src="./../imgges/dotno-1.png" onclick="img1()"  class="h-30  cursor" />
+        <img src="./../imgges/dotno-1.png" onclick="img2()" class="h-30  cursor" />
+        <img src="./../imgges/dotno-1.png" onclick="img3()" class="h-30  cursor" />
+      </div>
    <div class="container">
 
+
+    
     <h1 class="text-center my-3 ">Products</h1>
 
         <div class="row ">
@@ -40,7 +67,7 @@
              </div>
              <h1 class="fs-6 text-center my-2">Samsung Galaxy S21 FE 5G with Snapdragon 888 (Lavender, 256 GB)  (8 GB RAM)</h1>
              <div class="d-block mx-auto m-2">
-             <button type="button" class="btn btn-primary btn-sm  ">Order Now</button>
+                <a class="menu" href="./../pages/order.html"> <button type="button" class="btn btn-primary btn-sm" >Order Now</button></a>
             </div> 
                
         </div>
@@ -59,7 +86,7 @@
              <h1 class="fs-6 text-center my-2">KODAK 139 cm (55 inch) QLED Ultra HD (4K) Smart Google TV With Dolby Vision & Atmos  (55MT5022)
             </h1>
              <div class="d-block mx-auto m-2">
-             <button type="button" class="btn btn-primary btn-sm  ">Order Now</button>
+                <a class="menu" href="./../pages/order.html"> <button type="button" class="btn btn-primary btn-sm" >Order Now</button></a>
             </div> 
                
         </div>
@@ -69,7 +96,7 @@
         <div class="col">
             <div class="card my-5 p-5  shadow position-relative">
 
-                <img src="./../imgges/like1.png" class="h-30 position-absolute top-0 end-0 m-2 cursor"/>
+                <img src="./../imgges/like1.png" id="js-img-3" onclick="cardCangeimg3()" class="h-30 position-absolute top-0 end-0 m-2 cursor"/>
                <img class="h-150 d-block mx-auto" src="./../imgges/laptop.webp"/>
                <div class="d-block mx-auto m-">
                <img src="./../imgges/dotno-1.png" class="h-30  cursor" />
@@ -78,7 +105,7 @@
              </div>
              <h1 class="fs-6 text-center my-2">HP Victus AMD Ryzen 5 Hexa Core 7535HS - (8 GB/512 ) (15.6 Inch, Mica Silver, 2.37 Kg)</h1>
              <div class="d-block mx-auto m-2">
-             <button type="button" class="btn btn-primary btn-sm  ">Order Now</button>
+                <a class="menu" href="./../pages/order.html"> <button type="button" class="btn btn-primary btn-sm" >Order Now</button></a>
             </div> 
                
         </div>
@@ -87,7 +114,7 @@
         <div class="col">
             <div class="card my-5 p-5  shadow position-relative">
 
-                <img src="./../imgges/like1.png" class="h-30 position-absolute top-0 end-0 m-2 cursor"/>
+                <img src="./../imgges/like1.png" id="js-img-4" onclick="cardCangeimg4()" class="h-30 position-absolute top-0 end-0 m-2 cursor"/>
                <img class="h-150 d-block mx-auto" src="./../imgges/buds.webp"/>
                <div class="d-block mx-auto m-">
                <img src="./../imgges/dotno-1.png"class="h-30  cursor" />
@@ -96,7 +123,7 @@
              </div>
              <h1 class="fs-6 text-center my-2">OnePlus Nord Buds 2 True Wireless Earbuds with 25dB Active Noise Cancellation Bluetooth </h1>
              <div class="d-block mx-auto m-2">
-             <button type="button" class="btn btn-primary btn-sm  ">Order Now</button>
+                <a class="menu" href="./../pages/order.html"> <button type="button" class="btn btn-primary btn-sm" >Order Now</button></a>
             </div> 
                
         </div>
@@ -130,7 +157,7 @@
              <h1 class="fs-6 text-center my-2">OPPO A17 (Lake Blue, 64 GB)  (4 GB RAM) 4 GB RAM | 64 GB ROM | Expandable Upto 2 TB
                 </h1>
              <div class="d-block mx-auto m-2">
-             <button type="button" class="btn btn-primary btn-sm  ">Order Now</button>
+                <a class="menu" href="./../pages/order.html"> <button type="button" class="btn btn-primary btn-sm" >Order Now</button></a>
             </div> 
                
         </div>
@@ -150,7 +177,7 @@
              <h1 class="fs-6 text-center my-2"> EKSA E800 (Yellow) Wired Gaming Headset  (Yellow, Black, On the Ear) Card and EMI Transactions
                 </h1>
              <div class="d-block mx-auto m-2">
-             <button type="button" class="btn btn-primary btn-sm  ">Order Now</button>
+                <a class="menu" href="./../pages/order.html"> <button type="button" class="btn btn-primary btn-sm" >Order Now</button></a>
             </div> 
                
         </div>
@@ -170,7 +197,7 @@
              <h1 class="fs-6 text-center my-2">boAt Wave Neo with 1.69 inch , 2.5D Curved Display & Multiple Sports Modes Smartwatch
                 </h1>
              <div class="d-block mx-auto m-2">
-             <button type="button" class="btn btn-primary btn-sm  ">Order Now</button>
+                <a class="menu" href="./../pages/order.html"> <button type="button" class="btn btn-primary btn-sm" >Order Now</button></a>
             </div> 
                
         </div>
@@ -190,7 +217,7 @@
              <h1 class="fs-6 text-center my-2">boAt Rockerz 255 Pro+ /258 Pro+ with ASAP Charge and upto 60 Hours Playback Bluetoot
                 </h1>
              <div class="d-block mx-auto m-2">
-             <button type="button" class="btn btn-primary btn-sm  ">Order Now</button>
+                <a class="menu" href="./../pages/order.html"> <button type="button" class="btn btn-primary btn-sm" >Order Now</button></a>
             </div> 
                
         </div>
@@ -212,7 +239,7 @@
              <h1 class="fs-6 text-center my-2">LG UR7500 108 cm (43 inch) Ultra HD (4K) LED Smart WebOS TV 2023 Edition 
                 </h1>
              <div class="d-block mx-auto m-2">
-             <button type="button" class="btn btn-primary btn-sm  ">Order Now</button>
+                <a class="menu" href="./../pages/order.html"> <button type="button" class="btn btn-primary btn-sm" >Order Now</button></a>
             </div> 
                
         </div>
@@ -232,7 +259,7 @@
                 64MP + 2MP | 
                 </h1>
              <div class="d-block mx-auto m-2">
-             <button type="button" class="btn btn-primary btn-sm  ">Order Now</button>
+                <a class="menu" href="./../pages/order.html"> <button type="button" class="btn btn-primary btn-sm" >Order Now</button></a>
             </div> 
                
         </div>
@@ -251,7 +278,7 @@
              <h1 class="fs-6 text-center my-2">Flipkart SmartBuy Back Cover for realme 11x 5G  (Black,  Silicon, Pack of: 1)
                 </h1>
              <div class="d-block mx-auto m-2">
-             <button type="button" class="btn btn-primary btn-sm  ">Order Now</button>
+                <a class="menu" href="./../pages/order.html"> <button type="button" class="btn btn-primary btn-sm" >Order Now</button></a>
             </div> 
                
         </div>
@@ -271,7 +298,7 @@
              <h1 class="fs-6 text-center my-2">realme Buds Air 5 with 50dB ANC, 12.4mm Dynamic Bass Driver and upto
                 </h1>
              <div class="d-block mx-auto m-2">
-             <button type="button" class="btn btn-primary btn-sm  ">Order Now</button>
+                <a class="menu" href="./../pages/order.html"> <button type="button" class="btn btn-primary btn-sm" >Order Now</button></a>
             </div> 
                
         </div>
@@ -309,7 +336,7 @@
              <h1 class="fs-6 text-center my-2">beatXP Vega with 1.43Round AMOLED & 1000 Nits BrightDisplay, BT Calling, IP68 Smartwatch 
                 </h1>
              <div class="d-block mx-auto m-2">
-             <button type="button" class="btn btn-primary btn-sm  ">Order Now</button>
+                <a class="menu" href="./../pages/order.html"> <button type="button" class="btn btn-primary btn-sm" >Order Now</button></a>
             </div> 
                
         </div>
@@ -330,7 +357,7 @@
              <h1 class="fs-6 text-center my-2">Fire-Boltt Rock 1.3 AMOLED Display, Bluetooth Calling, Rotating Crown, Voice Assistant
                 </h1>
              <div class="d-block mx-auto m-2">
-             <button type="button" class="btn btn-primary btn-sm  ">Order Now</button>
+                <a class="menu" href="./../pages/order.html"> <button type="button" class="btn btn-primary btn-sm" >Order Now</button></a>
             </div> 
                
         </div>
@@ -351,7 +378,7 @@
              <h1 class="fs-6 text-center my-2">Fire-Boltt Cyclone 1.6'' Round Premium Display, Motion Sensor Gaming, APPEnabl
                 </h1>
              <div class="d-block mx-auto m-2">
-             <button type="button" class="btn btn-primary btn-sm  ">Order Now</button>
+                <a class="menu" href="./../pages/order.html"> <button type="button" class="btn btn-primary btn-sm" >Order Now</button></a>
             </div> 
                
         </div>
@@ -371,7 +398,7 @@
              <h1 class="fs-6 text-center my-2">Boult CrownR Pro 1.43''HD AMOLED, BT Calling, Zinc Alloy Frame, IP67, SpO2 Tracking Smartwatch 
                 </h1>
              <div class="d-block mx-auto m-2">
-             <button type="button" class="btn btn-primary btn-sm  ">Order Now</button>
+                <a class="menu" href="./../pages/order.html"> <button type="button" class="btn btn-primary btn-sm" >Order Now</button></a>
             </div> 
                
         </div>
@@ -391,7 +418,7 @@
              <h1 class="fs-6 text-center my-2">boAt Nirvana Ion with 120 Hours Playback & Crystal Bionic Sound by Hifi DSP 5 Bluetooth Headset
                 </h1>
              <div class="d-block mx-auto m-2">
-             <button type="button" class="btn btn-primary btn-sm  ">Order Now</button>
+                <a class="menu" href="./../pages/order.html"> <button type="button" class="btn btn-primary btn-sm" >Order Now</button></a>
             </div> 
                
         </div>
@@ -411,7 +438,7 @@
              <h1 class="fs-6 text-center my-2">Boult Audio W40 with Quad Mic ENC, 48H Battery Life, Low Latency Gaming, Made in India 
                 </h1>
              <div class="d-block mx-auto m-2">
-             <button type="button" class="btn btn-primary btn-sm  ">Order Now</button>
+                <a class="menu" href="./../pages/order.html"> <button type="button" class="btn btn-primary btn-sm" >Order Now</button></a>
             </div> 
                
         </div>
@@ -431,7 +458,7 @@
              <h1 class="fs-6 text-center my-2">Boult Audio Airbass Z35 with ZEN ENC Mic, 32H Playtime, 45ms Ultra-Low Latency Mode 
                 </h1>
              <div class="d-block mx-auto m-2">
-             <button type="button" class="btn btn-primary btn-sm  ">Order Now</button>
+                <a class="menu" href="./../pages/order.html"> <button type="button" class="btn btn-primary btn-sm" >Order Now</button></a>
             </div> 
                
         </div>
@@ -451,11 +478,123 @@
              <h1 class="fs-6 text-center my-2">Boult Audio Z40 with Zen ENC Mic, 60H Battery Life, Low Latency Gaming, Made In India, 5.3 Bluetooth 
                 </h1>
              <div class="d-block mx-auto m-2">
-             <button type="button" class="btn btn-primary btn-sm  ">Order Now</button>
+                <a class="menu" href="./../pages/order.html"> <button type="button" class="btn btn-primary btn-sm" >Order Now</button></a>
             </div> 
                
         </div>
         </div> 
+
+
+
+        
+        <div class="col-sm-12  col-md-6 ">
+            <div class="my-5 p-5  shadow position-relative">
+              
+               <img src="./../imgges/hading7.webp" class="col w-100 h-50 p-3"/>
+        </div>
+        </div>
+
+        <div class="col-sm-12 col-md-6 ">
+            <div class="my-5 p-5  shadow position-relative">
+              
+               <img src="./../imgges/hading5.webp"  class="col w-100 h-100 p-3"/>
+        </div>
+        </div>
+
+
+         
+         
+        <div class="col">
+            <div class="card my-5 p-5  shadow position-relative">
+
+                <img src="./../imgges/like1.png" class="h-30 position-absolute top-0 end-0 m-2 cursor"/>
+               <img class="h-150 d-block mx-auto" src="./../imgges/home1.webp"/>
+               <div class="d-block mx-auto m-">
+               <img src="./../imgges/dotno-1.png"class="h-30  cursor" />
+               <img src="./../imgges/dotno-1.png" class="h-30  cursor" />
+               <img src="./../imgges/dotno-1.png" class="h-30  cursor" />
+             </div>
+             <h1 class="fs-6 text-center my-2">F&D 380X 108 W Bluetooth Home Theatre  (Black, 2.1 Channel) 
+                </h1>
+             <div class="d-block mx-auto m-2">
+                <a class="menu" href="./../pages/order.html"> <button type="button" class="btn btn-primary btn-sm" >Order Now</button></a>
+            </div> 
+               
+        </div>
+        </div> 
+        
+        
+         
+        <div class="col">
+            <div class="card my-5 p-5  shadow position-relative">
+
+                <img src="./../imgges/like1.png" class="h-30 position-absolute top-0 end-0 m-2 cursor"/>
+               <img class="h-150 d-block mx-auto" src="./../imgges/home2.webp"/>
+               <div class="d-block mx-auto m-">
+               <img src="./../imgges/dotno-1.png"class="h-30  cursor" />
+               <img src="./../imgges/dotno-1.png" class="h-30  cursor" />
+               <img src="./../imgges/dotno-1.png" class="h-30  cursor" />
+             </div>
+             <h1 class="fs-6 text-center my-2">I Kall IK2222 Bluetooth Home Theatre  (Black, Mono Channel)
+                </h1>
+             <div class="d-block mx-auto m-2">
+                <a class="menu" href="./../pages/order.html"> <button type="button" class="btn btn-primary btn-sm" >Order Now</button></a>
+            </div> 
+               
+        </div>
+        </div> 
+
+        
+         
+        <div class="col">
+            <div class="card my-5 p-5  shadow position-relative">
+
+                <img src="./../imgges/like1.png" class="h-30 position-absolute top-0 end-0 m-2 cursor"/>
+               <img class="h-150 d-block mx-auto" src="./../imgges/home3.webp"/>
+               <div class="d-block mx-auto m-">
+               <img src="./../imgges/dotno-1.png"class="h-30  cursor" />
+               <img src="./../imgges/dotno-1.png" class="h-30  cursor" />
+               <img src="./../imgges/dotno-1.png" class="h-30  cursor" />
+             </div>
+             <h1 class="fs-6 text-center my-2">F&D F210X 30 W Portable Bluetooth Home Theatre  (Black, 2.1 Channel)
+                </h1>
+             <div class="d-block mx-auto m-2">
+                <a class="menu" href="./../pages/order.html"> <button type="button" class="btn btn-primary btn-sm" >Order Now</button></a>
+            </div> 
+               
+        </div>
+        </div> 
+  
+
+        
+         
+        <div class="col">
+            <div class="card my-5 p-5  shadow position-relative">
+
+                <img src="./../imgges/like1.png" class="h-30 position-absolute top-0 end-0 m-2 cursor"/>
+               <img class="h-150 d-block mx-auto" src="./../imgges/home4.webp"/>
+               <div class="d-block mx-auto m-">
+               <img src="./../imgges/dotno-1.png"class="h-30  cursor" />
+               <img src="./../imgges/dotno-1.png" class="h-30  cursor" />
+               <img src="./../imgges/dotno-1.png" class="h-30  cursor" />
+             </div>
+             <h1 class="fs-6 text-center my-2">Intex 2.1 Choral TUFB OS 40 W Bluetooth Home Theatre  (Black and Brown)
+ 
+                </h1>
+             <div class="d-block mx-auto m-2">
+                <a class="menu" href="./../pages/order.html"> <button type="button" class="btn btn-primary btn-sm" >Order Now</button></a>
+            </div> 
+               
+        </div>
+        </div> 
+
+
+
+
+
+
+
+
 
         </div>
         
@@ -469,6 +608,25 @@
    </script>
    <script>
     
+
+      
+function img1()
+{
+    const element = document.getElementById("img-1");
+  element.src= "./../imgges/hade5.webp";
+}
+   
+function img2()
+{
+    const element = document.getElementById("img-1");
+  element.src= "./../imgges/hade7.webp";
+}
+   
+function img3()
+{
+    const element = document.getElementById("img-1");
+  element.src= "./../imgges/hade10.jpg";
+}
 function cardCangeimg1()
 {
     const element = document.getElementById("js-img-1");
@@ -492,6 +650,7 @@ function cardCangeimg4()
     const element = document.getElementById("js-img-4");
   element.src= "./../imgges/like.png";
 }
+ 
    </script>
 </body>
 </html>
