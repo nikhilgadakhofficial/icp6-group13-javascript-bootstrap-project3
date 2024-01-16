@@ -1,6 +1,82 @@
-.abc{
-    height: 150px;
-    width: 180px;
+body{
+	background-color: #869eb6;
+}
+
+.container {
+	margin: 100px auto;
+    border: 2px solid #333;
     padding: 20px;
-    position:absolute;
+    background-color: rgb(255, 255, 255);
+    max-width: 1000px;
+    min-height: 550px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 8px 24px;
+}
+
+.left {
+    flex-basis: 50%;
+}
+
+.right {
+    flex-basis: 50%;
+}
+
+form {
+    padding: 16px; 
+}
+
+h3 {
+    margin-top: 16px; 
+    color: #2c3e50;
+}
+
+form input[type="text"] {
+    width: 100%;
+    padding: 8px 11px; 
+    margin: 8px 0; 
+    outline: none;
+}
+
+#zip {
+    display: flex;
+    margin-top: 8px; 
+}
+
+#zip select {
+    padding: 8px 11px;
+}
+
+#zip input[type="number"] {
+    padding: 8px 11px; 
+    margin-left: 5px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 11px 24px; 
+    background-color: #2f455b;
+    color: white;
+    border: none;
+    outline: none;
+    margin-top: 16px; 
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background: #2c3e50;
+}
+
+.cursorPointer {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 770px) {
+    .container {
+        flex-direction: column;
+    }
+    body {
+        overflow-x: hidden;
+    }
 }
