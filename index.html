@@ -8,19 +8,24 @@
     <link rel="stylesheet" href="./css/index.css">
 </head>
 <body>
-    <div class=" bg-warning height">
+    <div class=" bg-warning height nav">
         <img  class="img-size" src="./images/logo-sell.png" alt="">
-        <a class="menu" href="./index.html">Home</a>
-        <a class="menu" href="./pages/products.html">Our Products</a>
-        <a class="menu" href="./pages/about.html">About Us</a>
-        <a class="menu" href="./pages/bolg.html">Blog</a>
-        <a class="menu" href="./pages/contact.html">Contact Us</a>
-        <a class="menu" href="./pages/login.html">Login</a>
-        <form class="d-flex" role="search">
-            <input class="form-control me-2 search-size1" type="search " placeholder="Search Products" aria-label="Search">
-            <button class="btn btn-outline-success search-size" type="submit">Search</button>
-          </form>
-    </div>
+        <span id="showMenu" onclick="showMenu()"><img class="menu-icon" src="./images/menu.png"/></span>
+        <div class="menuItems" id="menuItems">
+            <span id="hideMenu" onclick="hideMenu()"><img class="menu-icon" src="./images/menu.png"/></span>
+            
+            <a class="menu" href="./index.html">Home</a>
+            <a class="menu" href="./pages/products.html">Our Products</a>
+            <a class="menu" href="./pages/about.html">About Us</a>
+            <a class="menu" href="./pages/review.html">Reviews</a>
+            <a class="menu" href="./pages/contact.html">Contact Us</a>
+            <a class="menu" href="./pages/login.html">Login</a>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2 search-size1" type="search " placeholder="Search Products" aria-label="Search">
+                <button class="btn btn-outline-success search-size" type="submit">Search</button>
+            </form>
+        </div>
+        </div>
     <div class="div-2">
         <div class="div-2">
 
@@ -42,12 +47,221 @@
             </a>
         </div>
             <div>
-                <img class="electro-products-img" src="./images/electro Products.png">
+                <img class="electro-products-img" src="./images/homePage.png">
             </div>
     </div>
     <div class="div-3">
-        xdcfgvbhnm
+        <h1 class="selling-products">Most Selling<span class="selling-products-1"> Products</span></h1>
+
+        <div class="row ">
+      
+        <div class="col ">
+            <div class="card my-5 p-5  shadow position-relative">
+
+                <img src="./../images/like1.png"  id="js-img-1" onclick="cardCangeimg1()" class="h-30 position-absolute top-0 end-0 m-2 cursor"/>
+               <img class="h-150 d-block mx-auto" src="./../images/mobile-1.webp"/>
+               <div class="d-block mx-auto m-">
+               <img src="./../images/dotno-1.png"   class="h-30  cursor" />
+               <img src="./../images/dotno-1.png" class="h-30  cursor" />
+               <img src="./../images/dotno-1.png" class="h-30  cursor" />
+             </div>
+             <h1 class="fs-6 text-center my-2">Samsung Galaxy S21 FE 5G with Snapdragon 888 (Lavender, 256 GB)  (8 GB RAM)</h1>
+             <div class="d-block mx-auto m-2">
+                <a class="menu" href="./../pages/order.html"> <button type="button" class="btn btn-primary btn-sm" >Order Now</button></a>
+            </div> 
+               
+        </div>
+        </div>    
+
+        <div class="col ">
+            <div class="card my-5 p-5  shadow position-relative">
+
+                <img src="./../images/like1.png"  id="js-img-1" onclick="cardCangeimg1()" class="h-30 position-absolute top-0 end-0 m-2 cursor"/>
+               <img class="h-150 d-block mx-auto" src="./images/boAt.webp"/>
+               <div class="d-block mx-auto m-">
+               <img src="./../images/dotno-1.png"   class="h-30  cursor" />
+               <img src="./../images/dotno-1.png" class="h-30  cursor" />
+               <img src="./../images/dotno-1.png" class="h-30  cursor" />
+             </div>
+             <h1 class="fs-6 text-center my-2">boAt Rockerz 255 Pro+ /258 Pro+ with ASAP Charge and upto 60 Hours Playback Bluetoot
+            </h1>
+             <div class="d-block mx-auto m-2">
+                <a class="menu" href="./../pages/order.html"> <button type="button" class="btn btn-primary btn-sm" >Order Now</button></a>
+            </div> 
+               
+        </div>
+        </div> 
+        
+        <div class="col">
+            <div class="card my-5 p-5  shadow position-relative">
+
+                <img src="./../images/like1.png" id="js-img-3" onclick="cardCangeimg3()" class="h-30 position-absolute top-0 end-0 m-2 cursor"/>
+               <img class="h-150 d-block mx-auto" src="./../images/laptop.webp"/>
+               <div class="d-block mx-auto m-">
+               <img src="./../images/dotno-1.png" class="h-30  cursor" />
+               <img src="./../images/dotno-1.png" class="h-30  cursor" />
+               <img src="./../images/dotno-1.png" class="h-30  cursor" />
+             </div>
+             <h1 class="fs-6 text-center my-2">HP Victus AMD Ryzen 5 Hexa Core 7535HS - (8 GB/512 ) (15.6 Inch, Mica Silver, 2.37 Kg)</h1>
+             <div class="d-block mx-auto m-2">
+                <a class="menu" href="./../pages/order.html"> <button type="button" class="btn btn-primary btn-sm" >Order Now</button></a>
+            </div> 
+               
+        </div>
+        </div> 
+
+        <div class="col">
+            <div class="card my-5 p-5  shadow position-relative">
+
+                <img src="./../images/like1.png" id="js-img-4" onclick="cardCangeimg4()" class="h-30 position-absolute top-0 end-0 m-2 cursor"/>
+               <img class="h-150 d-block mx-auto" src="./../images/buds.webp"/>
+               <div class="d-block mx-auto m-">
+               <img src="./../images/dotno-1.png"class="h-30  cursor" />
+               <img src="./../images/dotno-1.png" class="h-30  cursor" />
+               <img src="./../images/dotno-1.png" class="h-30  cursor" />
+             </div>
+             <h1 class="fs-6 text-center my-2">OnePlus Nord Buds 2 True Wireless Earbuds with 25dB Active Noise Cancellation Bluetooth </h1>
+             <div class="d-block mx-auto m-2">
+                <a class="menu" href="./../pages/order.html"> <button type="button" class="btn btn-primary btn-sm" >Order Now</button></a>
+            </div> 
+               
+        </div>
+        </div> 
+
+        <div class="col ">
+            <div class="card my-5 p-5  shadow position-relative">
+
+                <img src="./../images/like1.png"  id="js-img-1" onclick="cardCangeimg1()" class="h-30 position-absolute top-0 end-0 m-2 cursor"/>
+               <img class="h-150 d-block mx-auto" src="./images/tv.webp"/>
+               <div class="d-block mx-auto m-">
+               <img src="./../images/dotno-1.png"   class="h-30  cursor" />
+               <img src="./../images/dotno-1.png" class="h-30  cursor" />
+               <img src="./../images/dotno-1.png" class="h-30  cursor" />
+             </div>
+             <h1 class="fs-6 text-center my-2">KODAK 139 cm (55 inch) QLED Ultra HD (4K) Smart Google TV With Dolby Vision 
+            
+            </h1>
+             <div class="d-block mx-auto m-2">
+                <a class="menu" href="./../pages/order.html"> <button type="button" class="btn btn-primary btn-sm" >Order Now</button></a>
+            </div> 
+               
+        </div>
+        </div>
+
+        <div class="col ">
+            <div class="card my-5 p-5  shadow position-relative">
+
+                <img src="./../images/like1.png"  id="js-img-1" onclick="cardCangeimg1()" class="h-30 position-absolute top-0 end-0 m-2 cursor"/>
+               <img class="h-150 d-block mx-auto" src="./images/watch2.webp"/>
+               <div class="d-block mx-auto m-">
+               <img src="./../images/dotno-1.png"   class="h-30  cursor" />
+               <img src="./../images/dotno-1.png" class="h-30  cursor" />
+               <img src="./../images/dotno-1.png" class="h-30  cursor" />
+             </div>
+             <h1 class="fs-6 text-center my-2">beatXP Vega with 1.43Round AMOLED & 1000 Nits, BT Calling, IP68 Smartwatch 
+            </h1>
+             <div class="d-block mx-auto m-2">
+                <a class="menu" href="./../pages/order.html"> <button type="button" class="btn btn-primary btn-sm" >Order Now</button></a>
+            </div> 
+               
+        </div>
+        </div>
+
+        <div class="col ">
+            <div class="card my-5 p-5  shadow position-relative">
+
+                <img src="./../images/like1.png"  id="js-img-1" onclick="cardCangeimg1()" class="h-30 position-absolute top-0 end-0 m-2 cursor"/>
+               <img class="h-150 d-block mx-auto" src="./images/home1.webp"/>
+               <div class="d-block mx-auto m-">
+               <img src="./../images/dotno-1.png"   class="h-30  cursor" />
+               <img src="./../images/dotno-1.png" class="h-30  cursor" />
+               <img src="./../images/dotno-1.png" class="h-30  cursor" />
+             </div>
+             <h1 class="fs-6 text-center my-2">F&D 380X 108 W <br/>Bluetooth Home Theatre  (Black, 2.1 Channel) 
+            </h1>
+             <div class="d-block mx-auto m-2">
+                <a class="menu" href="./../pages/order.html"> <button type="button" class="btn btn-primary btn-sm" >Order Now</button></a>
+            </div> 
+               
+        </div>
+        </div>
+
+        <div class="col ">
+            <div class="card my-5 p-5  shadow position-relative">
+
+                <img src="./../images/like1.png"  id="js-img-1" onclick="cardCangeimg1()" class="h-30 position-absolute top-0 end-0 m-2 cursor"/>
+               <img class="h-150 d-block mx-auto" src="./images/boAt3.webp"/>
+               <div class="d-block mx-auto m-">
+               <img src="./../images/dotno-1.png"   class="h-30  cursor" />
+               <img src="./../images/dotno-1.png" class="h-30  cursor" />
+               <img src="./../images/dotno-1.png" class="h-30  cursor" />
+             </div>
+             <h1 class="fs-6 text-center my-2">Boult Audio W40 with Quad Mic ENC, 48H Battery Life, Low Latency Gaming, Made in India 
+            </h1>
+             <div class="d-block mx-auto m-2">
+                <a class="menu" href="./../pages/order.html"> <button type="button" class="btn btn-primary btn-sm" >Order Now</button></a>
+            </div> 
+               
+        </div>
+        </div>
+     
     </div>
-    
+
+    <div class="footer bg-warning">
+        <div class="footer-about-us">
+            <h2 class="about-us">About Us</h2>
+            <hr />
+            <p class="about-us-text">At Electronics Shop, our mission is to provide high-quality electronic products that enhance your digital lifestyle. We strive to be a trusted partner for all your tech needs by offering a carefully curated selection of products from top brands.</p>
+        </div>
+        <div class="footer-nvigation">
+            <h2 class="navigation">Navigation</h2>
+            <hr />
+            <a href="./../index.html" class="navigation-pages">Home</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+            <a href="./../pages/about.html" class="navigation-pages">About Us</a>
+
+            <br /><br /><br />
+            <a href="./pages/products.html" class="navigation-pages"> Our Products</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="./pages/contact.html" class="navigation-pages">Contact</a>
+            <br /><br /><br />
+            <a href="./pages/review.html" class="navigation-pages">Feedback & Reviews</a>
+            
+
+
+        </div>
+
+        <div class="footer-connect">
+            <h2 class="navigation">Let's Connect</h2>
+            <hr />
+            <span>
+                <image class="location" src="./images/location.png" />
+                <a class="location-address"
+                    href="https://www.google.com/maps/@18.5784454,73.9873605,13z?entry=ttu">sellelectro main Office</a><br /><br />
+
+                <img class="mail" src="./images/mail.png" />
+                <a class="mail-address"
+                    href="https://mail.google.com/mail/u/2/#search/dfgvbn">sellelctro@gmail.com</a>
+                <br /><br />
+                <img class="contact" src="./images/phone-call.png" />
+                <a class="contact-address" href="+91 (22) 6601 1825.">7709482439</a>
+            </span>
+            <br /><br /><br />
+
+            <span>
+                <img class="facebook" src="./images/facebook.png" />
+                <img class="facebook" src="./images/twitter.png" />
+                <img class="facebook" src="./images/instagram.png" />
+            </span>
+        </div>
+
+    </div> 
+    <div class="footer-last">
+        <span class="last-footer-text">sellelectro © 2024-All  Rights Reserved.</span>
+
+    </div>
+    <script src="./js/index.js"></script>
+     
 </body>
-</html>
+</html> 
