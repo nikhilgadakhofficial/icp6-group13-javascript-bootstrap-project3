@@ -1,3 +1,4 @@
+
 .height{
     height: 150px;
     border-radius:10px ;
@@ -17,7 +18,7 @@
 }
 .search-size1{
     height: 50px;
-    width: 190px;
+    width: 160px;
     margin-top: 80px;
 
 }
@@ -64,7 +65,7 @@
     border-radius: 10px;
     border: 2px solid grey;
     box-shadow: 0 0 10px grey;
-    background-color: green;
+    background-color: blue;
     margin: 20px;
     margin-top: 40px;
     width: 200px;
@@ -90,7 +91,7 @@
 
 }
 .btn2:hover{
-    background-color: green;
+    background-color: blue;
     color: white;
 }
 .electro-products-img{
@@ -100,7 +101,206 @@
 
 }
 .div-3{
-    height: 500px;
+    margin-top: 100px;  
+}
+.selling-products{
+    font-family: cursive;
+    text-align: center;
+}
+.selling-products-1{
+    color: gold;
+}
+.h-150{
+    height: 200px;
+    width: 200px;
+}
+.h-30{
+    height: 30px;
+    width: 30px;
+}
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     margin-top: 100px;
-    background-color: red;
+    height: 420px;
+    width: 100%;
+}
+.footer-about-us{
+   margin-left: 10px;
+    height: 350px;
+    width: 350px;
+    color: black;
+}
+.about-us{
+    padding-top: 60px;
+    color: blue;
+    font-family: cursive;
+}
+.footer-nvigation{
+    height: 300px;
+    width: 400px;
+    padding-top: 60px;
+    color: blue;
+    font-family: cursive;
+
+}
+.navigation-pages{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.footer-connect{
+    height: 380px;
+    width: 400px;
+    padding-top: 60px;
+    color: blue;
+    font-family: cursive;
+}
+.location{
+    height: 25px;
+    width: 25px;
+}
+.location-address{
+    color: black;
+    text-decoration: none;
+}
+.mail{
+    height: 25px;
+    width: 25px;
+}
+.mail-address{
+    color: black;
+    text-decoration: none;
+}
+.contact{
+    height: 25px;
+    width: 25px;
+}
+.contact-address{
+    color: black;
+    text-decoration: none;
+}
+.facebook{
+    height: 35px;
+    width: 35px;
+    cursor: pointer;
+}
+.footer-last{
+    height: 30px;
+    width: 100%;
+    background-color: rgb(90, 89, 89);
+}
+.last-footer-text{
+    color: white;
+    font-size: 15px;
+    padding-left: 10px;
+}
+.menuItems{
+    display: flex;
+}
+
+@media only screen and (max-width: 480px){
+    .nav{
+        position: relative;
+    }
+    .menuItems{
+        display: flex;
+        position: absolute;
+        flex-direction: column; 
+        background-color: yellow;
+        left: -300px; 
+        transition: all 0.5s;
+    }
+    .menu{
+        padding: 10px;
+    }
+    .menu-icon{
+        height: 40px;
+        width: 40px;
+    }
+    .electro-products-img{
+       display: none;
+    
+    }
+    .footer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 100px;
+        height: 1000px;
+        width: 100%;
+        
+    }
+    .footer-about-us{
+       margin-left: 10px;
+        height: 350px;
+        width: 350px;
+        color: black;
+    }
+    .about-us{
+        padding-top: 60px;
+        color: blue;
+        font-family: cursive;
+    }
+    .footer-nvigation{
+        height: 300px;
+        width: 400px;
+        padding-top: 60px;
+        color: blue;
+        font-family: cursive;
+    
+    }
+    .navigation-pages{
+        text-decoration: none;
+        color: black;
+        font-size: 15px;
+    }
+    .footer-connect{
+        height: 380px;
+        width: 400px;
+        padding-top: 60px;
+        color: blue;
+        font-family: cursive;
+    }
+    .location{
+        height: 25px;
+        width: 25px;
+    }
+    .location-address{
+        color: black;
+        text-decoration: none;
+    }
+    .mail{
+        height: 25px;
+        width: 25px;
+    }
+    .mail-address{
+        color: black;
+        text-decoration: none;
+    }
+    .contact{
+        height: 25px;
+        width: 25px;
+    }
+    .contact-address{
+        color: black;
+        text-decoration: none;
+    }
+    .facebook{
+        height: 35px;
+        width: 35px;
+        cursor: pointer;
+    }
+    .footer-last{
+        height: 30px;
+        width: 100%;
+        background-color: rgb(90, 89, 89);
+    }
+    .last-footer-text{
+        color: white;
+        font-size: 15px;
+        padding-left: 10px;
+    }
 }

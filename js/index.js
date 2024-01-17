@@ -7,7 +7,7 @@ function showSlides() {
  if (window.innerWidth>=490) {
    document.getElementById('showMenu').style.display="none"
    document.getElementById('hideMenu').style.display="none"
- }
+ } 
  function showMenu() {
    document.getElementById('menuItems').style.left="0px"
  }
