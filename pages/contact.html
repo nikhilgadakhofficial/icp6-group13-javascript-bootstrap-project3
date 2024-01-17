@@ -1,12 +1,149 @@
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Electronic Shop</title>
+  <link rel="stylesheet" href="./../css/index.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+
+    .container {
+      margin-top: 50px;
+    }
+
+    .card {
+      border: 2px solid #007bff;
+    }
+
+    .card-title {
+      color: #007bff;
+    }
+  </style>
 </head>
+
 <body>
-    <h1>khushi</h1>
+
+    <div class=" bg-warning height">
+        <img  class="img-size" src="./../images/logo-sell.png" alt="">
+        <a class="menu" href="./../index.html">Home</a>
+        <a class="menu" href="./../pages/products.html">Our Products</a>
+        <a class="menu" href="./../pages/about.html">About Us</a>
+        <a class="menu" href="./../pages/review.html">Reviews</a>
+        <a class="menu" href="./../pages/contact.html">Contact Us</a>
+        <a class="menu" href="./../pages/login.html">Login</a>
+        <form class="d-flex" role="search">
+            <input class="form-control me-2 search-size1" type="search " placeholder="Search Products" aria-label="Search">
+            <button class="btn btn-outline-success search-size" type="submit">Search</button>
+          </form>
+    </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 offset-md-3">
+        <div class="card">
+          <div class="card-body">
+            <h3 class="card-title text-center">Contact Our Electronic Shop</h3>
+            <form id="contactForm">
+              <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" class="form-control" id="name" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Your Email</label>
+                <input type="email" class="form-control" id="email" required>
+              </div>
+              <div class="form-group">
+                <label for="message">Your Message</label>
+                <textarea class="form-control" id="message" rows="4" required></textarea>
+              </div>
+              <button type="button" class="btn btn-primary btn-block" onclick="submitForm()">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+   
+  <div class="footer bg-warning">
+    <div class="footer-about-us">
+        <h2 class="about-us">About Us</h2>
+        <hr />
+        <p class="about-us-text">At Electronics Shop, our mission is to provide high-quality electronic products that enhance your digital lifestyle. We strive to be a trusted partner for all your tech needs by offering a carefully curated selection of products from top brands.</p>
+    </div>
     
+    <div class="footer-nvigation">
+        <h2 class="navigation">Navigation</h2>
+        <hr />
+        <a href="./../index.html" class="navigation-pages">Home</a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <a href="./../pages/about.html" class="navigation-pages">About Us</a>
+
+        <br /><br /><br />
+        <a href="./pages/products.html" class="navigation-pages"> Our Products</a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="./pages/contact.html" class="navigation-pages">Contact</a>
+        <br /><br /><br />
+        <a href="./pages/review.html" class="navigation-pages">Feedback & Reviews</a>
+        
+
+
+    </div>
+
+    <div class="footer-connect">
+        <h2 class="navigation">Let's Connect</h2>
+        <hr />
+        <span>
+            <image class="location" src="./../images/location.png" />
+            <a class="location-address"
+                href="https://www.google.com/maps/@18.5784454,73.9873605,13z?entry=ttu">sellelectro main Office</a><br /><br />
+
+            <img class="mail" src="./../images/mail.png" />
+            <a class="mail-address"
+                href="https://mail.google.com/mail/u/2/#search/dfgvbn">sellelctro@gmail.com</a>
+            <br /><br />
+            <img class="contact" src="./../images/phone-call.png" />
+            <a class="contact-address" href="+91 (22) 6601 1825.">7709482439</a>
+        </span>
+        <br /><br /><br />
+
+        <span>
+            <img class="facebook" src="./../images/facebook.png" />
+            <img class="facebook" src="./../images/twitter.png" />
+            <img class="facebook" src="./../images/instagram.png" />
+        </span>
+    </div>
+
+</div> 
+<div class="footer-last">
+    <span class="last-footer-text">sellelectro © 2024-All  Rights Reserved.</span>
+
+</div>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <!-- Custom JavaScript -->
+  <script>
+    function submitForm() {
+      // You can add logic here to handle the form submission, for example, sending data to a server.
+      alert('Form submitted!');
+      document.getElementById('contactForm').reset();
+    }
+  </script>
+
 </body>
+
 </html>
