@@ -23,23 +23,36 @@
           
         }
        
+@media only screen and (max-width: 480px){
+    .dot{
+           margin-left:100px ;
+          
+        }
+}
+
       
     </style>
 </head>
 <body>
-    <div class=" bg-warning height">
+  
+    <div class=" bg-warning height nav">
         <img  class="img-size" src="./../images/logo-sell.png" alt="">
-        <a class="menu" href="./../index.html">Home</a>
-        <a class="menu" href="./../pages/products.html">Our Products</a>
-        <a class="menu" href="./../pages/about.html">About Us</a>
-        <a class="menu" href="./../pages/review.html">Reviews</a>
-        <a class="menu" href="./../pages/contact.html">Contact Us</a>
-        <a class="menu" href="./../pages/login.html">Login</a>
-        <form class="d-flex" role="search">
-            <input class="form-control me-2 search-size1" type="search " placeholder="Search Products" aria-label="Search">
-            <button class="btn btn-outline-success search-size" type="submit">Search</button>
-          </form>
-    </div>
+        <span id="showMenu" onclick="showMenu()"><img class="menu-icon" src="./../images/menu.png"/></span>
+        <div class="menuItems" id="menuItems">
+            <span id="hideMenu" onclick="hideMenu()"><img class="menu-icon" src="./../images/menu.png"/></span>
+            
+            <a class="menu" href="../index.html">Home</a>
+            <a class="menu" href="./products.html">Our Products</a>
+            <a class="menu" href="./about.html">About Us</a>
+            <a class="menu" href="./../pages/review.html">Reviews</a>
+            <a class="menu" href="./contact.html">Contact Us</a>
+            <a class="menu" href="./login.html">Login</a>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2 search-size1" type="search " placeholder="Search Products" aria-label="Search">
+                <button class="btn btn-outline-success search-size" type="submit">Search</button>
+            </form>
+        </div>
+        </div>
         
     <img src="./../images/hade8.jpg" id="img-1"  class="w-100 p-3 h-auto "/>
 
@@ -669,6 +682,24 @@
    <script>
     
 
+
+    
+function showSlides() {
+   let i;
+ }
+ 
+ if (window.innerWidth>=490) {
+   document.getElementById('showMenu').style.display="none"
+   document.getElementById('hideMenu').style.display="none"
+ } 
+ function showMenu() {
+   document.getElementById('menuItems').style.left="0px"
+ }
+ function hideMenu() {
+   document.getElementById('menuItems').style.left="-300px"
+ 
+   
+ }
       
 function img1()
 {
@@ -846,5 +877,6 @@ function cardCangeimg24()
  
  
    </script>
+   
 </body>
 </html>
